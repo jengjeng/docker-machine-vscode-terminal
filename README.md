@@ -15,7 +15,8 @@ Don't worry! Try this solution.
 -----
 
 ## You have 2 solutions
-### 1. Using "shellArgs" in vscode settings.
+### 1. Config "shellArgs" in vscode settings.
+#### For bash user
 ```
 {
   "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
@@ -23,6 +24,16 @@ Don't worry! Try this solution.
     "-c",
     "eval $(docker-machine env --shell=bash --no-proxy default);$SHELL"
   ]
+}
+```
+#### For powershell user
+```
+{
+  "terminal.integrated.shellArgs.windows": [
+    "-NoExit"
+    "iex",
+    "\"& docker-machine env --shell=powershell --no-proxy default | iex\""
+  ],
 }
 ```
 ### or..
