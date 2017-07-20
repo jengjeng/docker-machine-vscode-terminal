@@ -14,6 +14,7 @@ Integration docker-machine in visual studio code integrated terminal
   ]
 }
 ```
+### or..
 ### 2. Replace "start.sh" file in "Docker Toolbox" directory (see start.sh file) with following config in vscode settings.
 ```
 {
