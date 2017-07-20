@@ -4,8 +4,11 @@ Integration docker-machine in visual studio code integrated terminal
 If you try to use docker but your windows doesn't supported for HyperV and must to use docker-toolbox instead.
 While you try to use it you encouter some error like
 ```
-error during connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.30/containers/json?all=1: open //./pipe/docker_engine: The system cannot find the file specified. In the default daemon configuration on
- Windows, the docker client must be run elevated to connect. This error may also indicate that the docker daemon is not running.
+error during connect: Get http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.30/containers/json?all=1:
+open //./pipe/docker_engine: The system cannot find the file specified.
+In the default daemon configuration on Windows,
+the docker client must be run elevated to connect.
+This error may also indicate that the docker daemon is not running.
 ```
 Don't worry! Try our solutions.
 
