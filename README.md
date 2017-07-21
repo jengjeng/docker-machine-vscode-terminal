@@ -32,7 +32,7 @@ Don't worry! Try this solution.
   "terminal.integrated.shellArgs.windows": [
     "-NoExit"
     "iex",
-    "\"& docker-machine env --shell=powershell --no-proxy default | iex\""
+    "\"docker-machine env default | iex; & docker-machine env --shell=powershell --no-proxy default | iex\""
   ],
 }
 ```
